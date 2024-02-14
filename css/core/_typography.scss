@@ -1,0 +1,133 @@
+// ----------------------
+// Typography
+// ----------------------
+
+// Taviraj Font
+@font-face {
+    font-family: "Taviraj";
+    src: url("../assets/fonts/Taviraj/Taviraj-Black.ttf");
+    font-weight: bolder;    
+}
+@font-face {
+    font-family: "Taviraj";
+    src: url("../assets/fonts/Taviraj/Taviraj-BlackItalic.ttf");
+    font-weight: bolder;    
+    font-style: italic;
+}
+@font-face {
+    font-family: "Taviraj";
+    src: url("../assets/fonts/Taviraj/Taviraj-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Taviraj";
+    src: url("../assets/fonts/Taviraj/Taviraj-BoldItalic.ttf");
+    font-weight: bold; 
+    font-style: italic;   
+}
+@font-face {
+    font-family: "Taviraj";
+    src: url("../assets/fonts/Taviraj/Taviraj-SemiBold.ttf");
+    font-weight: 700;    
+}
+@font-face {
+    font-family: "Taviraj";
+    src: url("../assets/fonts/Taviraj/Taviraj-SemiBoldItalic.ttf");
+    font-weight: 700;
+    font-style: italic;    
+}
+@font-face {
+    font-family: "Taviraj";
+    src: url("../assets/fonts/Taviraj/Taviraj-Medium.ttf");
+    font-weight: normal;    
+}
+@font-face {
+    font-family: "Taviraj";
+    src: url("../assets/fonts/Taviraj/Taviraj-MediumItalic.ttf");
+    font-weight: normal;
+    font-style: italic;    
+}
+@font-face {
+    font-family: "Taviraj";
+    src: url("../assets/fonts/Taviraj/Taviraj-Light.ttf");
+    font-weight: 300;    
+}
+@font-face {
+    font-family: "Taviraj";
+    src: url("../assets/fonts/Taviraj/Taviraj-LightItalic.ttf");
+    font-weight: 300;
+    font-style: italic;    
+}
+@font-face {
+    font-family: "Taviraj";
+    src: url("../assets/fonts/Taviraj/Taviraj-ExtraLight.ttf");
+    font-weight: lighter;    
+}
+@font-face {
+    font-family: "Taviraj";
+    src: url("../assets/fonts/Taviraj/Taviraj-ExtraLightItalic.ttf");
+    font-weight: lighter;
+    font-style: italic;    
+}
+
+
+// Nunito
+@font-face {
+    font-family: "nunito";
+    src: url("../assets/fonts/Nunito/static/Nunito-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "nunito";
+    src: url("../assets/fonts/Nunito/static/Nunito-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "nunito";
+    src: url("../assets/fonts/Nunito/static/Nunito-SemiBold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "nunito";
+    src: url("../assets/fonts/Nunito/static/Nunito-SemiBoldItalic.ttf");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: "nunito";
+    src: url("../assets/fonts/Nunito/static/Nunito-Medium.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "nunito";
+    src: url("../assets/fonts/Nunito/static/Nunito-MediumItalic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "nunito";
+    src: url("../assets/fonts/Nunito/static/Nunito-Light.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "nunito";
+    src: url("../assets/fonts/Nunito/static/Nunito-LightItalic.ttf");
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+
+// Font Families
+$ff-taviraj: "taviraj";
+$ff-nunito: "nunito";
+
+// Font Sizes
+$fz-1: 1.6rem;
+$fz-2: 1.8rem;
+$fz-3: 2rem;
+$fz-4: 2.4rem;
+$fz-5: 2.8rem;
+$fz-6: 3.6rem;
+$fz-7: 6rem;

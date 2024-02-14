@@ -1,0 +1,39 @@
+// ----------------------
+// Imports
+// ----------------------
+@import "_colors";
+@import "_typography";
+@import "_mixins";
+
+// ----------------------
+// Custom Bootstrap Classes
+// ----------------------
+
+.btn{
+    border-radius: 0;
+    outline: hidden;
+    padding: .8rem 3.6rem;
+    transition: all .175s ease-out;
+    font-size: $fz-1;
+
+    &-primary{
+        background-color: $color-main;
+        color: white;
+        border: 1px solid $color-main;
+        &:hover{
+            background-color: $color-main-hover;
+            border-color: $color-main-hover;
+        }
+    }
+
+    &-secondary{
+        color: $color-main;
+        border: 1px solid $color-main;
+        background-color: transparent;
+        &:hover{
+            color: $color-main-hover;
+            border-color: $color-main-hover;
+            background-color: rgba($color: $color-main-hover, $alpha: .1);
+        }
+    }
+}

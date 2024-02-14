@@ -1,0 +1,66 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../core/colors";
+@import "../core/typography";
+@import "../core/mixins";
+@import "../core/globals";
+@import "../core/customBoostrap";
+
+
+.hero-section{
+    position: relative;
+    margin-bottom: 10rem;
+    &__container{
+        position: relative;
+        background-color: $color-bg-light;
+    }
+
+    &__shape{
+        top: 0;
+        position: absolute;
+    }
+
+
+    &__content{
+        margin-left: 10rem;
+    }
+
+    &__slide-btns{
+        position: absolute;
+        bottom: -5%;
+        right: 0;
+    }
+
+    &__title{
+        font-family: $ff-taviraj;
+        font-weight: 300;
+        font-size: $fz-7;
+        position: relative;
+        color: $color-off-black;
+        max-width: 16ch;
+        &::before{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 20rem;
+            height: .2rem;
+            background-color: $color-off-black;
+        }
+    }
+
+    &__description{
+        font-family: $ff-nunito;
+        font-size: $fz-1;
+        max-width: 62ch;
+        margin-top: 3rem;
+    }
+    &__discover{
+        display: block;
+        text-decoration: underline;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        font-size: $fz-1;
+        font-family: $ff-taviraj;
+        font-weight: 700;
+    }
+}

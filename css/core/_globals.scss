@@ -1,0 +1,71 @@
+@import "_customBoostrap";
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: $color-off-white;
+}
+
+li{
+    display: block;
+    text-decoration: none !important;
+}
+
+a{
+    text-decoration: none;
+    color: $color-off-black;
+    font-family: $ff-taviraj;
+}
+
+
+
+// ----------------------
+// Classes
+// ----------------------
+.custom-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    padding: 2.4rem;
+
+    &__nav-item{
+        font-size: $fz-3;
+        padding: 1.2rem 2rem;
+        position: relative;
+        transition: all .175s ease-out;
+        border-radius: 1rem;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    &__action-btns{
+        .cart-item{
+            border-radius: 50%;
+            background-color: $color-bg-light;
+        }
+        .login-item{
+            display: flex;
+            align-items: center;
+            span{
+                &:last-child{
+                    margin-left: .75rem;
+                    font-size: $fz-2;
+                }
+            }
+        }
+    }
+    &__action-btn-item{
+        padding: 1rem;
+        display: flex;
+    }
+    &__action-btn{
+        &:not(:last-child){
+            margin-right: 2rem;
+        }
+    }
+}
